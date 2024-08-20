@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <style>
+        h1 {
+            color: #640404;
+            container-type: left;
+        }
+
+        .div_h {
+            color: rgb(50, 73, 65);
+        }
+
+        .div_type_text {
+            color: rgb(15, 2, 27);
+        }
+
+        .imagen {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        tfoot {
+            font-weight: bold;
+            background-color: rgb(255, 224, 202);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="https://google.com">Google</a>
+            <a href="#sectionListUl">Listas Ul</a>
+            <a href="#sectionListOl">Listas Ol</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section class="div_h">
+                <h1>Mi primer Html</h1>
+                <h2>Soy un h2</h2>
+                <h3>Soy un h3</h3>
+                <h4>Soy un h4</h4>
+                <h5>Soy un h5</h6>
+                    <h6>Soy un h6</h6>
+            </section>
+
+            <section class="div_type_text">
+                <p><strong>Este es un texto en negrita</strong></p>
+                <p><u>Este es un texto subrayado</u></p>
+                <p><em>Este es un texto en cursiva</em></p>
+            </section>
+
+            <section>
+                <h2>Sección 1</h2>
+                <p>Esta es la sección 1</p>
+            </section>
+
+            <section>
+                <h2>Sección 2</h2>
+                <p>Esta es la sección 2</p>
+            </section>
+
+            <section id="sectionListUl">
+                <h3>Lista desordenada</h3>
+                <ul>
+                    <li>Lista 1</li>
+                    <li>Lista 4</li>
+                    <li>Lista 2</li>
+                    <li>Lista 3</li>
+                </ul>
+            </section>
+
+            <section id="sectionListOl">
+                <h3>Lista ordenada</h3>
+                <ol>
+                    <li>Lista 1</li>
+                    <li>Lista 2</li>
+                    <li>Lista 3</li>
+                    <li>Lista 4</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Multimedia</h3>
+                <img src="Bugati.jpeg" alt="Imagen Bugati" class="imagen">
+
+                <h3>Video</h3>
+                <video src="BugatiVideo.mp4" controls></video>
+
+                <h3>Audio</h3>
+                <audio src="Music.mp3" controls></audio>
+            </section>
+
+            <section>
+                <h3>Tabla de datos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                            <th>Columna 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fila 1, celda 1</td>
+                            <td>Fila 1, celda 2</td>
+                            <td>Fila 1, celda 3</td>
+                        </tr>
+                        <tr>
+                            <td>Fila 2, celda 4</td>
+                            <td>Fila 2, celda 5</td>
+                            <td>Fila 2, celda 6</td>
+                        </tr>
+                        <tr>
+                            <td>Fila 3, celda 4</td>
+                            <td>Fila 3, celda 5</td>
+                            <td>Fila 3, celda 6</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total 1</td>
+                            <td>Total 2</td>
+                            <td>Total 3</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Formulario</h3>
+            <form action="">
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingrese su nombre">
+                </div>
+
+                <div>
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingrese su apellido">
+                </div>
+
+                <div>
+                    <label>Mensaje</label>
+                    <input type="text" placeholder="Mensaje">
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <hr>
+        <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
